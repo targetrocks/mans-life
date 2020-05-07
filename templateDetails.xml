@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="template" client="site" method="upgrade">
+    <name>joomla_art</name>
+    <version>1.0.0</version>
+    <creationDate>07/05/2020</creationDate>
+    <author>xdan.ru</author>
+    <authorEmail>chupurnov@gmail.com</authorEmail>
+    <copyright>Copyright (C) 2005 - 2020 Open Source Matters, Inc. All rights reserved.</copyright>
+    <description><![CDATA[
+    Шаблон Joomla-art(1.0.0) Сгенерированный сервисом <a href="https://xdan.ru/copysite/">copysite</a> для Joomla CMS
+    ]]>
+    </description>
+    <files>
+        <file>index.php</file>
+        <file>templateDetails.xml</file>
+        <file>image.jpg</file>
+<file>error.php</file>
+<file>offline.php</file>
+<file>component.php</file>
+
+        <folder>img</folder>
+<folder>f</folder>
+<folder>language</folder>
+<folder>js</folder>
+<folder>www</folder>
+<folder>html</folder>
+<folder>images</folder>
+
+    </files>
+    <positions>
+        <position>debug</position>
+    </positions>
+    <languages folder="language">
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_joomla_art.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.tpl_joomla_art.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+            </fieldset>
+        </fields>
+    </config>
+</extension>
